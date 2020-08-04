@@ -1,6 +1,5 @@
 body {
     background-color: grey;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -20,21 +19,61 @@ body {
     font-size: 1.5em;
     color: #504d4d;
     padding-bottom: .2em;
+    text-align: center;
 }
 
 .container p {
     font-size: .9em;
     margin-bottom: 0;
+    text-align: center;
 }
 
-.container a {
-    font-size: .9em;
+.container #learn-more{
+    font-size: .8em;
     text-decoration: none;
+    text-align: center;
+    display: block;
 }
 
 form {
     margin-top: 29px;
 }
-form #email{
+form label{
     display: block;
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 30px;
 }
+
+form input {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #504d4d;
+    height: 30px;
+    border-radius: 4px;
+}
+
+form #phone-para {
+    margin-top: 3px;
+    text-align: left;
+    color: #1b1a1afa
+}
+
+form input[type=submit] {
+    background-color: #0777b8fa;
+    color: white;
+    font-size: 1.1em;
+    height: 50px;
+}
+
+form #terms {
+    font-size: 0.75em;
+    line-height: 1.2rem;
+    font-style: italic;
+}
+
+form #terms a {
+    text-decoration: none;
+}
+
+
